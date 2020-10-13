@@ -1,9 +1,6 @@
 package Graficos;
 /**
- * Buenas Intenciones
  * Archivo: Gato.java
- * @author BelloCerecero
- * @since 18-09-2013
  * @version 1.0
  */
 import Audio.Audio;
