@@ -10,7 +10,7 @@ public class Gato extends javax.swing.JFrame
     private boolean jugador;
     private String[][] movimientos;
     private Audio audio;
-    
+    int mip;
     public Gato() 
     {
         jugador = true; //se inicializa en el jujador 1 que son X
@@ -208,6 +208,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador1())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 1 ha ganado!!");
+           else
+               empate();
        }
        else if(!jugador && movimientos[0][0].equals("i"))
        {
@@ -217,6 +219,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador2())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 2 ha ganado!!");
+           else
+               empate();
        }
     }//GEN-LAST:event_boton1ActionPerformed
 
@@ -229,6 +233,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador1())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 1 ha ganado!!");
+           else
+               empate();
        }
        else if(!jugador && movimientos[0][1].equals("i"))
        {
@@ -238,6 +244,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador2())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 2 ha ganado!!");
+           else
+               empate();
        }
     }//GEN-LAST:event_boton2ActionPerformed
 
@@ -250,6 +258,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador1())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 1 ha ganado!!");
+           else
+               empate();
        }
        else if(!jugador && movimientos[0][2].equals("i"))
        {
@@ -259,6 +269,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador2())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 2 ha ganado!!");
+           else
+               empate();
        }
     }//GEN-LAST:event_boton3ActionPerformed
 
@@ -271,6 +283,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador1())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 1 ha ganado!!");
+           else
+               empate();
        }
        else if(!jugador && movimientos[1][0].equals("i"))
        {
@@ -280,6 +294,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador2())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 2 ha ganado!!");
+           else
+               empate();
        }
     }//GEN-LAST:event_boton4ActionPerformed
 
@@ -292,6 +308,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador1())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 1 ha ganado!!");
+           else
+               empate();
        }
        else if(!jugador && movimientos[1][1].equals("i"))
        {
@@ -301,6 +319,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador2())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 2 ha ganado!!");
+           else
+               empate();
        }
     }//GEN-LAST:event_boton5ActionPerformed
 
@@ -313,6 +333,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador1())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 1 ha ganado!!");
+           else
+               empate();
        }
        else if(!jugador && movimientos[1][2].equals("i"))
        {
@@ -322,6 +344,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador2())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 2 ha ganado!!");
+           else
+               empate();
        }
     }//GEN-LAST:event_boton6ActionPerformed
 
@@ -334,6 +358,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador1())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 1 ha ganado!!");
+           else
+               empate();
        }
        else if(!jugador && movimientos[2][0].equals("i"))
        {
@@ -343,6 +369,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador2())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 2 ha ganado!!");
+           else
+               empate();
        }
     }//GEN-LAST:event_boton7ActionPerformed
 
@@ -355,6 +383,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador1())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 1 ha ganado!!");
+           else
+               empate();
        }
        else if(!jugador && movimientos[2][1].equals("i"))
        {
@@ -364,6 +394,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador2())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 2 ha ganado!!");
+           else
+               empate();
        }
     }//GEN-LAST:event_boton8ActionPerformed
 
@@ -376,6 +408,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador1())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 1 ha ganado!!");
+           else
+               empate();
        }
        else if(!jugador && movimientos[2][2].equals("i"))
        {
@@ -385,6 +419,8 @@ public class Gato extends javax.swing.JFrame
            imprimirMatriz();
            if(ganador2())
                javax.swing.JOptionPane.showMessageDialog(null, "El jugador 2 ha ganado!!");
+           else
+               empate();
        }
     }//GEN-LAST:event_boton9ActionPerformed
 
@@ -452,6 +488,19 @@ public class Gato extends javax.swing.JFrame
                 movimientos[i][j] = "i";
             }
         }
+    }
+    public void count(){
+        mip=mip+1;
+        System.out.println(""+mip);
+    }
+    
+    public void empate(){
+        if(mip<9)
+            count();
+        if(mip==9){
+            javax.swing.JOptionPane.showMessageDialog(null, "Esto es un empate");
+                   jButton1.doClick();}
+
     }
     
     public void imprimirMatriz()
