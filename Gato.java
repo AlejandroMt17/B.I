@@ -4,6 +4,7 @@ package Graficos;
  * @version 1.0
  */
 import Audio.Audio;
+import javax.swing.JOptionPane;
 
 public class Gato extends javax.swing.JFrame 
 {
@@ -51,6 +52,9 @@ public class Gato extends javax.swing.JFrame
             }
         });
 
+        boton2.setBackground(new java.awt.Color(255, 255, 255));
+        boton2.setForeground(new java.awt.Color(255, 255, 255));
+        boton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 3));
         boton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton2ActionPerformed(evt);
@@ -140,7 +144,7 @@ public class Gato extends javax.swing.JFrame
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
-        jPanel2.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel2.setBackground(new java.awt.Color(255, 51, 51));
 
         jLabel1.setFont(new java.awt.Font("Sakkal Majalla", 1, 24)); // NOI18N
         jLabel1.setText("Juego del GATO");
@@ -439,7 +443,11 @@ public class Gato extends javax.swing.JFrame
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        System.exit(0);
+        int i=JOptionPane.showConfirmDialog(this,"¿Seguro que quieres salir?");
+        if(i==0){
+          System.exit(0);  
+        }
+        
     }//GEN-LAST:event_jButton2ActionPerformed
 
     
