@@ -46,13 +46,14 @@ public class Gato extends javax.swing.JFrame
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
+        boton1.setForeground(new java.awt.Color(255, 255, 255));
         boton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton1ActionPerformed(evt);
             }
         });
 
-        boton2.setBackground(new java.awt.Color(255, 255, 255));
+        boton2.setBackground(new java.awt.Color(204, 204, 204));
         boton2.setForeground(new java.awt.Color(255, 255, 255));
         boton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 3));
         boton2.addActionListener(new java.awt.event.ActionListener() {
@@ -61,42 +62,49 @@ public class Gato extends javax.swing.JFrame
             }
         });
 
+        boton3.setForeground(new java.awt.Color(255, 255, 255));
         boton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton3ActionPerformed(evt);
             }
         });
 
+        boton4.setForeground(new java.awt.Color(255, 255, 255));
         boton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton4ActionPerformed(evt);
             }
         });
 
+        boton5.setForeground(new java.awt.Color(255, 255, 255));
         boton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton5ActionPerformed(evt);
             }
         });
 
+        boton6.setForeground(new java.awt.Color(255, 255, 255));
         boton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton6ActionPerformed(evt);
             }
         });
 
+        boton7.setForeground(new java.awt.Color(255, 255, 255));
         boton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton7ActionPerformed(evt);
             }
         });
 
+        boton8.setForeground(new java.awt.Color(255, 255, 255));
         boton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton8ActionPerformed(evt);
             }
         });
 
+        boton9.setForeground(new java.awt.Color(255, 255, 255));
         boton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boton9ActionPerformed(evt);
@@ -192,7 +200,7 @@ public class Gato extends javax.swing.JFrame
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 121, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 116, Short.MAX_VALUE)
                 .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(24, 24, 24))
         );
@@ -450,7 +458,74 @@ public class Gato extends javax.swing.JFrame
         
     }//GEN-LAST:event_jButton2ActionPerformed
 
+        private void visible(){
+        boton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img1.jpg")));
+        boton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img1.jpg")));
+        boton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img1.jpg")));
+        boton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img1.jpg")));
+        boton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img1.jpg")));
+        boton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img1.jpg")));
+        boton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img1.jpg")));
+        boton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img1.jpg")));
+        boton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img1.jpg")));
+    }
+        
+                private void visible2(){
+        boton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hallowen 1.jpg")));
+        boton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hallowen 1.jpg")));
+        boton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hallowen 1.jpg")));
+        boton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hallowen 1.jpg")));
+        boton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hallowen 1.jpg")));
+        boton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hallowen 1.jpg")));
+        boton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hallowen 1.jpg")));
+        boton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hallowen 1.jpg")));
+        boton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hallowen 1.jpg")));
+    }
     
+        private void visible3(){
+        boton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img2.jpg")));
+        boton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img2.jpg")));
+        boton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img2.jpg")));
+        boton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img2.jpg")));
+        boton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img2.jpg")));
+        boton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img2.jpg")));
+        boton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img2.jpg")));
+        boton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img2.jpg")));
+        boton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img2.jpg")));
+    }
+        private void visible4(){
+        boton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img3.jpg")));
+        boton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img3.jpg")));
+        boton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img3.jpg")));
+        boton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img3.jpg")));
+        boton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img3.jpg")));
+        boton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img3.jpg")));
+        boton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img3.jpg")));
+        boton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img3.jpg")));
+        boton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img3.jpg")));
+    }
+        private void visible5(){
+        boton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img5.jpg")));
+        boton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img5.jpg")));
+        boton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img5.jpg")));
+        boton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img5.jpg")));
+        boton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img5.jpg")));
+        boton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img5.jpg")));
+        boton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img5.jpg")));
+        boton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img5.jpg")));
+        boton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img5.jpg")));
+    }
+        private void visible6(){
+        boton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img6.jpg")));
+        boton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img6.jpg")));
+        boton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img6.jpg")));
+        boton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img6.jpg")));
+        boton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img6.jpg")));
+        boton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img6.jpg")));
+        boton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img6.jpg")));
+        boton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img6.jpg")));
+        boton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/img6.jpg")));
+    }
     public boolean ganador1()
     {
         if( ((movimientos[0][0].equals("X")) && (movimientos[0][1].equals("X")) && (movimientos[0][2].equals("X")))
