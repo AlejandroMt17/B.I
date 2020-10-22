@@ -11,7 +11,7 @@ public class Gato extends javax.swing.JFrame
     private boolean jugador;
     private String[][] movimientos;
     private Audio audio;
-    int mip;
+    int mip,lol;
     public Gato() 
     {
         jugador = true; //se inicializa en el jujador 1 que son X
@@ -446,16 +446,41 @@ public class Gato extends javax.swing.JFrame
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         llenarMatriz();
-        boton1.setText("");
-        boton2.setText("");
-        boton3.setText("");
-        boton4.setText("");
-        boton5.setText("");
-        boton6.setText("");
-        boton7.setText("");
-        boton8.setText("");
-        boton9.setText("");
+        boton1.setText(null);
+        boton2.setText(null);
+        boton3.setText(null);
+        boton4.setText(null);
+        boton5.setText(null);
+        boton6.setText(null);
+        boton7.setText(null);
+        boton8.setText(null);
+        boton9.setText(null);
         jugador = true;
+        mip=0;
+        if(lol==0){
+            lol=lol+1;
+            visible();}
+        else{
+        if(lol==1){
+            lol=lol+1;
+            visible2();
+        }else{
+            if(lol==2){
+            lol=lol+1;
+            visible3();}else{
+                if(lol==3){
+            lol=lol+1;
+            visible4();}else{
+                    if(lol==4){
+            lol=lol+1;
+            visible5();}else{
+                        if(lol==5){
+            lol=lol+1;
+            visible6();}
+                    }
+                }
+            }
+        }}
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
