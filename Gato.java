@@ -19,6 +19,7 @@ public class Gato extends javax.swing.JFrame
         llenarMatriz();
         audio = new Audio();
         initComponents();
+        jButton1.doClick();
     }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
