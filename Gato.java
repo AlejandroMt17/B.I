@@ -211,7 +211,7 @@ public class Gato extends javax.swing.JFrame
     }// </editor-fold>//GEN-END:initComponents
 
     private void boton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton1ActionPerformed
-       
+       boton1.setIcon(null);
        if(jugador && movimientos[0][0].equals("i"))
        {
            boton1.setText("X");
@@ -237,6 +237,7 @@ public class Gato extends javax.swing.JFrame
     }//GEN-LAST:event_boton1ActionPerformed
 
     private void boton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton2ActionPerformed
+       boton2.setIcon(null);
        if(jugador && movimientos[0][1].equals("i"))
        {
            boton2.setText("X");
@@ -262,6 +263,7 @@ public class Gato extends javax.swing.JFrame
     }//GEN-LAST:event_boton2ActionPerformed
 
     private void boton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton3ActionPerformed
+       boton3.setIcon(null);
        if(jugador && movimientos[0][2].equals("i"))
        {
            boton3.setText("X");
@@ -287,6 +289,7 @@ public class Gato extends javax.swing.JFrame
     }//GEN-LAST:event_boton3ActionPerformed
 
     private void boton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton4ActionPerformed
+       boton4.setIcon(null);
        if(jugador && movimientos[1][0].equals("i"))
        {
            boton4.setText("X");
@@ -312,6 +315,7 @@ public class Gato extends javax.swing.JFrame
     }//GEN-LAST:event_boton4ActionPerformed
 
     private void boton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton5ActionPerformed
+       boton5.setIcon(null);
        if(jugador && movimientos[1][1].equals("i"))
        {
            boton5.setText("X");
@@ -337,6 +341,7 @@ public class Gato extends javax.swing.JFrame
     }//GEN-LAST:event_boton5ActionPerformed
 
     private void boton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton6ActionPerformed
+       boton6.setIcon(null);
        if(jugador && movimientos[1][2].equals("i"))
        {
            boton6.setText("X");
@@ -362,6 +367,7 @@ public class Gato extends javax.swing.JFrame
     }//GEN-LAST:event_boton6ActionPerformed
 
     private void boton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton7ActionPerformed
+       boton7.setIcon(null);
        if(jugador && movimientos[2][0].equals("i"))
        {
            boton7.setText("X");
@@ -387,6 +393,7 @@ public class Gato extends javax.swing.JFrame
     }//GEN-LAST:event_boton7ActionPerformed
 
     private void boton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton8ActionPerformed
+       boton8.setIcon(null);
        if(jugador && movimientos[2][1].equals("i"))
        {
            boton8.setText("X");
@@ -412,7 +419,8 @@ public class Gato extends javax.swing.JFrame
     }//GEN-LAST:event_boton8ActionPerformed
 
     private void boton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton9ActionPerformed
-         if(jugador && movimientos[2][2].equals("i"))
+       boton9.setIcon(null);  
+       if(jugador && movimientos[2][2].equals("i"))
        {
            boton9.setText("X");
            setMovimiento(2,2,"X");
