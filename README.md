@@ -14,3 +14,6 @@ Se realizara con el lenguaje de programación Java en Netbeans, contando con un 
 Usamos musica con tematica de hallowen 
 
 <a href=https://www.youtube.com/watch?v=0PxvIODAWNA> "Cancion 1" </a> 
+
+##  Cambios que se le haran
+Aparte de tener varios cambios en el diseño para que se ve bien, tambien estaremos implementando mas cosas nuevas,si esxiste la posibilidad tal vez en el futuro se estaran implementando mas juegos sencillos, algunos Quiz de ingles y otros mas que se estan pensando.
