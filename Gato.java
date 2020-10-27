@@ -4,6 +4,7 @@ package Graficos;
  * @version 1.0
  */
 import Audio.Audio;
+import java.applet.AudioClip;
 import javax.swing.JOptionPane;
 
 public class Gato extends javax.swing.JFrame 
@@ -11,59 +12,8 @@ public class Gato extends javax.swing.JFrame
     private boolean jugador;
     private String[][] movimientos;
     private Audio audio;
-    int mip,lol;
-     private void yo(){
-      if(yo==0){
-          yo2();
-          yo=yo+1;
-          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music1.wav"));
-          sonido.play();
-      }else{
-          if(yo==1){
-              yo2();
-          yo=yo+1;
-          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music2.wav"));
-          sonido.play();
-      }else{
-              if(yo==2){
-                  yo2();
-          yo=yo+1;
-          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music3.wav"));
-          sonido.play();
-      }else{
-                  if(yo==3){
-                      yo2();
-          yo=yo+1;
-          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music4.wav"));
-          sonido.play();
-      }else{
-                      if(yo==4){
-                          yo2();
-          yo=yo+1;
-          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music1.wav"));
-          sonido.play();
-      }else{
-                          if(yo==5){
-                              yo2();
-          yo=0;
-          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music2.wav"));
-          sonido.play();
-      }
-                      }
-                  }
-              }
-          }
-      }
-    }
-    private void yo2(){
-      sonido.stop();
-    }
-        jugador = true; //se inicializa en el jujador 1 que son X
-        movimientos = new String[3][3];
-        llenarMatriz();
-        audio = new Audio();
-        initComponents();
-    }
+    int mip,lol,yo;
+    AudioClip sonido;
     public Gato() 
     {
         jugador = true; //se inicializa en el jujador 1 que son X
@@ -682,6 +632,38 @@ public class Gato extends javax.swing.JFrame
             }
             System.out.print("\n");
         }
+    }
+
+private void yo(){
+      if(yo==0){
+          yo2();
+          yo=yo+1;
+          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music1.wav"));
+          sonido.play();
+      }else{
+          if(yo==1){
+              yo2();
+          yo=yo+1;
+          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music2.wav"));
+          sonido.play();
+      }else{
+              if(yo==2){
+                  yo2();
+          yo=yo+1;
+          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music3.wav"));
+          sonido.play();
+      }else{
+                  if(yo==3){
+                      yo2();
+          yo=yo+1;
+          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music4.wav"));
+          sonido.play();
+      }}
+          }
+      }
+    }
+    private void yo2(){
+      sonido.stop();
     }
 
     public static void main(String args[]) {
