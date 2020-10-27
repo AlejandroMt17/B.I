@@ -646,22 +646,9 @@ private void yo(){
           yo=yo+1;
           sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music2.wav"));
           sonido.play();
-      }else{
-              if(yo==2){
-                  yo2();
-          yo=yo+1;
-          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music3.wav"));
-          sonido.play();
-      }else{
-                  if(yo==3){
-                      yo2();
-          yo=yo+1;
-          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music4.wav"));
-          sonido.play();
-      }}
-          }
-      }
-    }
+      }}}
+      
+    
     private void yo2(){
       sonido.stop();
     }
