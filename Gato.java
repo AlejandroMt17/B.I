@@ -65,6 +65,52 @@ public class Gato extends javax.swing.JFrame
     }
     public Gato() 
     {
+        private void yo(){
+      if(yo==0){
+          yo2();
+          yo=yo+1;
+          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music1.wav"));
+          sonido.play();
+      }else{
+          if(yo==1){
+              yo2();
+          yo=yo+1;
+          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music2.wav"));
+          sonido.play();
+      }else{
+              if(yo==2){
+                  yo2();
+          yo=yo+1;
+          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music3.wav"));
+          sonido.play();
+      }else{
+                  if(yo==3){
+                      yo2();
+          yo=yo+1;
+          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music4.wav"));
+          sonido.play();
+      }else{
+                      if(yo==4){
+                          yo2();
+          yo=yo+1;
+          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music1.wav"));
+          sonido.play();
+      }else{
+                          if(yo==5){
+                              yo2();
+          yo=0;
+          sonido = java.applet.Applet.newAudioClip(getClass().getResource("/Graficos/music2.wav"));
+          sonido.play();
+      }
+                      }
+                  }
+              }
+          }
+      }
+    }
+    private void yo2(){
+      sonido.stop();
+    }
         jugador = true; //se inicializa en el jujador 1 que son X
         movimientos = new String[3][3];
         llenarMatriz();
